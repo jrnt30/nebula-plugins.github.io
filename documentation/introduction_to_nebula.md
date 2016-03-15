@@ -39,7 +39,7 @@ In order to make it easy for engineering teams at Netflix to turn their services
 
 ### How IPC affects builds
 
-Netflix has developed a number of Java libraries designed to handle the complexities of communicating at scale in the cloud. Netflix engineers who wish to write code to call another microservice do so by consuming that service's client jar file. This client jar contains Java API's that abstract the complexities involved with scaling that service.Providing a far client jar makes it easy for consumers of the service to get up and running. The API is defined through a Java interface, making it easy to understand and use.
+Netflix has developed a number of Java libraries designed to handle the complexities of communicating at scale in the cloud. Netflix engineers who wish to write code to call another microservice do so by consuming that service's client jar file. This client jar contains Java API's that abstract the complexities involved with scaling that service.  Providing a fat client jar makes it easy for consumers of the service to get up and running. The API is defined through a Java interface, making it easy to understand and use.
  
 There are however a wealth of challenges that this approach creates: 
 
